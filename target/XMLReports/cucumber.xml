@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="19.65" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.1" time="9.571">
+<testsuite name="Cucumber" time="12.531" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.1" time="7.88">
 <system-out><![CDATA[
 Given the user is on login page.............................................passed
 When the user enters the valid student and Password123......................passed
@@ -8,7 +8,7 @@ And click on login button...................................................pass
 Then the user navigated to home page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.2" time="9.772">
+<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.2" time="4.485">
 <system-out><![CDATA[
 Given the user is on login page.............................................passed
 When the user enters the valid Gaurav and Password123.......................passed
