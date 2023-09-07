@@ -1,6 +1,6 @@
 Feature: Google Search
 
-  @smoketest
+  @smoketest_Google
   Scenario: Search contect on google & user should land on search result page
     Given the user is on chrome browser
     When the user search for google page

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="9.018" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Google Search" name="Search contect on google &amp; user should land on search result page" time="8.854">
+<testsuite name="Cucumber" time="19.65" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.1" time="9.571">
 <system-out><![CDATA[
-Given the user is on chrome browser.........................................passed
-When the user search for google page........................................passed
-When the user enter some data to search bar.................................passed
-And the user hit enter......................................................passed
-Then the user navigated to search result page...............................passed
+Given the user is on login page.............................................passed
+When the user enters the valid student and Password123......................passed
+And click on login button...................................................passed
+Then the user navigated to home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials - Example #1.2" time="9.772">
+<system-out><![CDATA[
+Given the user is on login page.............................................passed
+When the user enters the valid Gaurav and Password123.......................passed
+And click on login button...................................................passed
+Then the user navigated to home page........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
