@@ -1,4 +1,4 @@
-package StepDefinitions;
+package Pages;
 
 import java.util.concurrent.TimeUnit;
 
